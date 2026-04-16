@@ -1,0 +1,21 @@
+language: nearly-static
+role: functional transitions only — content appears, it does not perform
+
+easing: ease-out
+duration-range: [100ms, 250ms]
+spring: false
+
+behaviors:
+  - page transitions: instant cut or fast crossfade (150ms)
+  - content load: fade-in from opacity 0 (200ms)
+  - hover: underline appears (no color change, no scale)
+  - scroll: no parallax, no stagger — content is just there
+
+forbidden:
+  - spring physics (too playful)
+  - staggered cascade (too theatrical)
+  - parallax (decorative, not informational)
+  - scale transforms (Swiss doesn't zoom)
+  - slide-in panels (content appears in place)
+
+prefers-reduced-motion: no visual difference (already minimal)

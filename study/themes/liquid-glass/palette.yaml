@@ -1,0 +1,47 @@
+palettes:
+  - name: arctic-frost
+    mesh: ["#e0e7ff", "#dbeafe", "#ede9fe"]
+    glass-tint: "rgba(255, 255, 255, 0.72)"
+    glass-border: "rgba(255, 255, 255, 0.20)"
+    text: "#1e293b"
+    text-muted: "#64748b"
+    accent: "#6366f1"
+    dark:
+      mesh: ["#1e1b4b", "#172554", "#1e1b4b"]
+      glass-tint: "rgba(15, 23, 42, 0.75)"
+      glass-border: "rgba(255, 255, 255, 0.08)"
+      text: "#f1f5f9"
+      accent: "#818cf8"
+
+  - name: rose-quartz
+    mesh: ["#ffe4e6", "#fce7f3", "#faf5ff"]
+    glass-tint: "rgba(255, 255, 255, 0.68)"
+    glass-border: "rgba(255, 255, 255, 0.18)"
+    text: "#1c1917"
+    text-muted: "#78716c"
+    accent: "#e11d48"
+    dark:
+      mesh: ["#1c1917", "#27272a", "#1c1917"]
+      glass-tint: "rgba(28, 25, 23, 0.78)"
+      glass-border: "rgba(255, 255, 255, 0.06)"
+      text: "#fafaf9"
+      accent: "#fb7185"
+
+  - name: ocean-depth
+    mesh: ["#dbeafe", "#cffafe", "#e0f2fe"]
+    glass-tint: "rgba(255, 255, 255, 0.70)"
+    glass-border: "rgba(255, 255, 255, 0.22)"
+    text: "#0f172a"
+    text-muted: "#475569"
+    accent: "#0284c7"
+    dark:
+      mesh: ["#0c4a6e", "#164e63", "#0c4a6e"]
+      glass-tint: "rgba(12, 74, 110, 0.72)"
+      glass-border: "rgba(255, 255, 255, 0.10)"
+      text: "#f0f9ff"
+      accent: "#38bdf8"
+
+background:
+  type: gradient-mesh (animated, 3-4 color stops, slow drift)
+  blur-on-glass: [8, 16, 24]
+  saturation-boost: 180%

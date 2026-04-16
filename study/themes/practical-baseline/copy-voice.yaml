@@ -1,0 +1,16 @@
+tone: professional, clear, direct
+vocabulary: technical but accessible
+density: medium — information-rich without jargon walls
+personality: competent colleague, not corporate robot
+
+do:
+  - use concrete numbers and specifics
+  - write scanable headings and labels
+  - keep CTAs action-oriented ("Create project", not "Get started")
+  - use sentence case for headings
+
+avoid:
+  - marketing superlatives ("revolutionary", "game-changing")
+  - filler phrases ("in order to", "it should be noted that")
+  - lorem ipsum (always generate realistic copy)
+  - exclamation marks in UI labels

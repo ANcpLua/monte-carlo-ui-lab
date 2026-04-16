@@ -1,0 +1,21 @@
+name: practical-baseline
+tagline: Ship-grade production UI — the empirical anchor
+year: 2024
+maturity: stable
+influences:
+  - Linear
+  - Vercel Dashboard
+  - Stripe
+  - GitHub
+stack:
+  primitives: one headless family (Base UI or Radix — pick one, never mix)
+  shell: shadcn/ui (source-owned, not runtime dependency)
+  styling: Tailwind CSS + CSS variables
+  tables: TanStack Table + TanStack Virtual
+  charts-heavy: ECharts
+  charts-light: Recharts
+  motion: CSS transitions + spring easing (accent only)
+identity: |
+  Dense but readable. Keyboard-first. Restrained chrome.
+  Optimized for real workflows under real data loads.
+  This theme is the baseline that all hybrids are measured against.

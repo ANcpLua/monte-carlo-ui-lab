@@ -1,0 +1,21 @@
+shell:
+  - glass-navbar (frosted top bar, blur increases on scroll)
+  - glass-sidebar (heavy blur, translucent)
+  - glass-card (primary content container)
+  - glass-modal (highest blur layer, centered float)
+  - glass-tooltip (small, sharp blur)
+
+preferred-patterns:
+  - command-palette (glass panel with backdrop blur)
+  - floating-action-button (glass circle, shadow)
+  - stat-card (glass with large number, subtle glow)
+  - hero-section (full-viewport gradient mesh behind glass CTA)
+  - navigation-tabs (glass pill indicator that slides)
+
+data-display:
+  charts: light only (Recharts or simple SVG — ECharts feels too heavy for this aesthetic)
+  tables: minimal, no visible grid lines, row hover brightens glass
+
+forms:
+  style: inputs with glass backgrounds, subtle inner shadow
+  focus: bright ring, increased opacity

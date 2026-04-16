@@ -1,0 +1,39 @@
+- id: sidebar
+  description: Collapsible vertical navigation with sections and icons
+  constraints: [aria-navigation, keyboard-navigable, collapse-state-persisted]
+  sources: [Linear, GitHub, Notion]
+
+- id: top-navbar
+  description: Horizontal navigation bar with logo, links, and actions
+  constraints: [responsive-collapse, aria-navigation, skip-link]
+  sources: [Stripe, Vercel]
+
+- id: command-palette
+  description: Keyboard-first action launcher (Cmd+K)
+  constraints: [focus-trap, esc-closes, fuzzy-search, aria-dialog]
+  sources: [Raycast, Linear, VS Code]
+
+- id: breadcrumbs
+  description: Hierarchical path indicator
+  constraints: [aria-breadcrumb, truncate-long-paths]
+  sources: [GitHub, AWS Console]
+
+- id: tabs
+  description: Horizontal tab group for switching views
+  constraints: [aria-tablist, keyboard-arrows, active-indicator]
+  sources: [Material, Vercel]
+
+- id: bottom-nav
+  description: Mobile bottom navigation bar
+  constraints: [max-5-items, aria-navigation, touch-targets-48px]
+  sources: [iOS HIG, Material]
+
+- id: dropdown-menu
+  description: Context menu triggered by button or right-click
+  constraints: [focus-trap, keyboard-navigable, aria-menu]
+  sources: [Radix, Base UI]
+
+- id: pagination
+  description: Page navigation for large datasets
+  constraints: [aria-navigation, keyboard-accessible]
+  sources: [GitHub, Stripe]

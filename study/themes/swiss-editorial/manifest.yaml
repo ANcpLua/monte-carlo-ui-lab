@@ -1,0 +1,14 @@
+name: swiss-editorial
+tagline: Grid-first, typographic, academic precision
+year: 1960 (revived 2020s)
+maturity: stable
+influences:
+  - Josef Müller-Brockmann
+  - Massimo Vignelli
+  - The New York Times digital
+  - Stripe documentation
+  - iA Writer
+identity: |
+  The grid is the design. Typography carries the hierarchy.
+  Maximum information, minimum decoration. Every pixel justified.
+  White space is structural, not decorative.

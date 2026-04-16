@@ -1,0 +1,26 @@
+grammars:
+  - name: sidebar-main
+    description: Fixed sidebar + scrollable main content
+    structure: [sidebar(240px), main(1fr)]
+    use-cases: [dashboard, settings, data explorer]
+
+  - name: split-panel
+    description: Resizable two-panel layout
+    structure: [list(320px), detail(1fr)]
+    use-cases: [inbox, issue list, entity browser]
+
+  - name: stacked-cards
+    description: Full-width stacked sections
+    structure: [header, content(cards-grid), footer]
+    use-cases: [overview, KPI dashboard, admin]
+
+  - name: fullbleed-table
+    description: Table takes full viewport width
+    structure: [toolbar, table(100vw), pagination]
+    use-cases: [logs, traces, alerts, large datasets]
+
+density-tiers:
+  sparse: padding-6, gap-6, large controls
+  balanced: padding-4, gap-4, standard controls
+  dense: padding-2, gap-2, compact controls
+  hyperdense: padding-1, gap-1, minimal controls

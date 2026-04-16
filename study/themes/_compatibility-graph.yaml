@@ -1,0 +1,23 @@
+# Which themes hybridize well, weakly, or not at all.
+# strong: stable hybrids, high cohesion expected
+# weak: experimental, interesting if cohesion lands
+# forbidden: structural clash, don't attempt
+
+practical-baseline:
+  strong: [swiss-editorial]
+  weak: [liquid-glass]
+  forbidden: []
+
+liquid-glass:
+  strong: [practical-baseline]
+  weak: [swiss-editorial]
+  forbidden: []
+
+swiss-editorial:
+  strong: [practical-baseline]
+  weak: [liquid-glass]
+  forbidden: []
+
+# As new themes are added, extend this graph.
+# Forbidden pairs are enforced by the sampler — it will never draw them.
+# Weak pairs are allowed but the pity system watches cohesion closely.

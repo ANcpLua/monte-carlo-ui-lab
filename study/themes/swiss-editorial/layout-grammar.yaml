@@ -1,0 +1,25 @@
+grammars:
+  - name: 12-col-asymmetric
+    description: Classic Swiss asymmetric grid — content left, sidebar right
+    structure: [grid(8col content, 4col sidebar)]
+    use-cases: [articles, documentation, blog]
+
+  - name: centered-narrow
+    description: Narrow centered column, generous margins
+    structure: [margin(auto), content(max-width 680px)]
+    use-cases: [long-form reading, settings, forms]
+
+  - name: magazine-spread
+    description: Multi-column editorial layout
+    structure: [grid(3-4 columns, varied spans)]
+    use-cases: [homepage, feature pages, case studies]
+
+  - name: full-width-data
+    description: Full-width table or grid with tight margins
+    structure: [header, content(100%, 16px margins)]
+    use-cases: [data tables, dashboards, timelines]
+
+density-tiers:
+  sparse: wide margins (120px+), generous leading, few elements per screen
+  balanced: moderate margins (60px), standard leading, content-focused
+  dense: tight margins (24px), compact leading, data-heavy

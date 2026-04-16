@@ -1,0 +1,26 @@
+# Bad luck protection floors.
+# Every trial must pass ALL of these before archival.
+# If a trial fails, the pity system tightens constraints and rerolls.
+
+floors:
+  a11y_score: 95          # axe-core automated score
+  contrast_min: 4.5       # WCAG AA text contrast ratio
+  lcp_max_ms: 2500        # Largest Contentful Paint (simulated 3G)
+  cls_max: 0.1            # Cumulative Layout Shift
+  cohesion_min: 0.70      # perceptual hash distance from theme reference
+  pattern_compliance: 1.0 # all components must be from the lexicon
+  copy_realism: 0.60      # no lorem ipsum, plausible for industry/persona
+
+# Trend interest thresholds (not floors — used by analyst for flagging)
+interest:
+  novelty_min: 0.80       # perceptual hash distance from all prior trials
+  cohesion_high: 0.85     # unusually high for a hybrid
+  rerolls_ideal: 0        # hot hybrid = passed on first attempt
+
+# Pity system configuration
+pity:
+  max_rerolls: 3
+  strategy:
+    attempt_1: original sample (hybrid or intra-theme)
+    attempt_2: tighten hybrid to 85/15 (or reduce variation range)
+    attempt_3: pure intra-theme with minimal variation (guaranteed pass)

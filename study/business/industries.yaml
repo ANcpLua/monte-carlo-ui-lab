@@ -1,0 +1,39 @@
+- id: saas
+  label: SaaS Platform
+  tone: professional, clear
+  typical-pages: [dashboard, settings, pricing, onboarding]
+
+- id: fintech
+  label: Financial Technology
+  tone: trustworthy, precise
+  typical-pages: [dashboard, transactions, analytics, settings]
+
+- id: healthcare
+  label: Healthcare / MedTech
+  tone: calm, reliable, accessible
+  typical-pages: [patient-portal, scheduling, records, dashboard]
+
+- id: e-commerce
+  label: E-Commerce
+  tone: inviting, product-focused
+  typical-pages: [product-listing, product-detail, cart, checkout]
+
+- id: dev-tools
+  label: Developer Tools
+  tone: technical, efficient
+  typical-pages: [documentation, dashboard, API-reference, settings]
+
+- id: creator-tools
+  label: Creator / Design Tools
+  tone: expressive, inspiring
+  typical-pages: [workspace, gallery, export, collaboration]
+
+- id: education
+  label: EdTech
+  tone: encouraging, clear
+  typical-pages: [course-listing, lesson, progress, dashboard]
+
+- id: enterprise
+  label: Enterprise Software
+  tone: formal, reliable
+  typical-pages: [admin-dashboard, user-management, reports, settings]

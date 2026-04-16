@@ -1,0 +1,50 @@
+# Component preferences for practical-baseline theme
+
+shell:
+  - sidebar
+  - command-palette
+  - breadcrumbs
+  - tabs
+  - dialog
+  - drawer
+  - dropdown-menu
+  - tooltip
+
+data-display:
+  heavy:
+    library: ECharts
+    use-cases: [dense time-series, multi-series charts, high-point-count views, advanced interactions]
+  light:
+    library: Recharts
+    use-cases: [KPI cards, overview dashboards, simple bar/line charts, admin analytics]
+  tables:
+    library: TanStack Table
+    capabilities: [sorting, filtering, pagination, visibility-toggles, row-selection, column-composition, sticky-headers, keyboard-navigation]
+    virtualization: TanStack Virtual (when dataset size justifies it)
+
+design-rules:
+  tables:
+    prefer: [scanable rows, restrained cell chrome, strong typography hierarchy, compact spacing]
+    avoid: [cardified rows for tabular data, gratuitous whitespace, premature virtualization]
+  charts:
+    heuristic: |
+      Is this chart decorative or operational?
+      Light dashboarding → Recharts. Dense exploration → ECharts.
+      Chart library choice is an architectural decision, not a cosmetic one.
+
+forms:
+  - text-input
+  - select
+  - combobox
+  - checkbox
+  - radio-group
+  - switch
+  - date-picker
+  - textarea
+
+feedback:
+  - toast
+  - alert
+  - skeleton
+  - progress-bar
+  - spinner

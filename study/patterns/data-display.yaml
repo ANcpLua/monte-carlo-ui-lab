@@ -1,0 +1,54 @@
+- id: data-table
+  description: Sortable, filterable table for structured data
+  constraints: [aria-table, keyboard-navigation, sticky-header, column-resize]
+  sources: [TanStack Table, AG Grid]
+
+- id: card
+  description: Contained content block with optional actions
+  constraints: [aria-article, focus-ring-on-interactive, consistent-padding]
+  sources: [shadcn, Material]
+
+- id: stat-card
+  description: Single KPI with label, value, and optional trend
+  constraints: [large-number, semantic-color-for-trend, accessible-label]
+  sources: [Stripe Dashboard, Vercel Analytics]
+
+- id: timeline
+  description: Chronological list of events
+  constraints: [aria-list, time-labels, expandable-details]
+  sources: [GitHub, Linear]
+
+- id: avatar
+  description: User or entity image with fallback initials
+  constraints: [alt-text, fallback-initials, size-variants]
+  sources: [shadcn, Radix]
+
+- id: badge
+  description: Small label for status or category
+  constraints: [semantic-colors, aria-label-if-icon-only]
+  sources: [shadcn, GitHub]
+
+- id: list
+  description: Vertical list of items with optional actions
+  constraints: [aria-list, keyboard-navigable, dividers-optional]
+  sources: [Material, Notion]
+
+- id: accordion
+  description: Collapsible sections for progressive disclosure
+  constraints: [aria-expanded, keyboard-toggle, single-or-multi]
+  sources: [Radix, Base UI]
+
+- id: bar-chart
+  description: Vertical or horizontal bars for categorical comparison
+  constraints: [aria-img, alt-description, color-blind-safe]
+  sources: [Recharts, ECharts]
+
+- id: line-chart
+  description: Continuous data series over time
+  constraints: [aria-img, alt-description, tooltip-on-hover]
+  sources: [Recharts, ECharts]
+
+- id: tag-list
+  description: Horizontal list of removable tags
+  constraints: [aria-list, keyboard-remove, overflow-handling]
+  sources: [shadcn, Notion]

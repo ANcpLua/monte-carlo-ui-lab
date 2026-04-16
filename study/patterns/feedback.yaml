@@ -1,0 +1,49 @@
+- id: toast
+  description: Temporary notification that auto-dismisses
+  constraints: [aria-alert, dismiss-button, stack-multiple, auto-dismiss-5s]
+  sources: [Sonner, shadcn]
+
+- id: modal-dialog
+  description: Centered overlay requiring user action
+  constraints: [focus-trap, esc-closes, aria-dialog, scroll-lock]
+  sources: [Radix, Base UI]
+
+- id: drawer
+  description: Slide-in panel from edge of screen
+  constraints: [focus-trap, swipe-to-close, aria-dialog]
+  sources: [vaul, shadcn]
+
+- id: skeleton
+  description: Loading placeholder mimicking content shape
+  constraints: [aria-busy, pulse-animation, matches-final-layout]
+  sources: [shadcn, Material]
+
+- id: progress-bar
+  description: Determinate or indeterminate progress indicator
+  constraints: [aria-progressbar, value-label, indeterminate-mode]
+  sources: [shadcn, Material]
+
+- id: spinner
+  description: Indeterminate loading indicator
+  constraints: [aria-busy, reduced-motion-respects]
+  sources: [shadcn]
+
+- id: alert
+  description: Inline status message (info, success, warning, error)
+  constraints: [aria-alert, icon+text, dismissible-optional]
+  sources: [shadcn, Material]
+
+- id: empty-state
+  description: Placeholder for views with no data
+  constraints: [descriptive-text, primary-action-cta, illustration-optional]
+  sources: [Linear, Notion]
+
+- id: error-boundary
+  description: Graceful error fallback for crashed components
+  constraints: [retry-action, error-details-collapsible]
+  sources: [React, Next.js]
+
+- id: tooltip
+  description: Small contextual hint on hover/focus
+  constraints: [aria-tooltip, delay-500ms, dismiss-on-scroll]
+  sources: [Radix, Base UI]

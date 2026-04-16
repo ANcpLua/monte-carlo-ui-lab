@@ -1,0 +1,21 @@
+shell:
+  - minimal-header (logo + nav links, no decoration)
+  - breadcrumbs (typographic, small)
+  - footer (grid-aligned columns, minimal)
+  - side-nav (text-only, indented hierarchy)
+
+preferred-patterns:
+  - article-layout (long-form, wide margins, pull quotes)
+  - data-table (clean lines, strong header, no card wrapper)
+  - stat-grid (large numbers, small labels, grid-aligned)
+  - timeline (vertical line, alternating sides)
+  - accordion (text-only, no icons except disclosure triangle)
+
+data-display:
+  charts: minimal line/bar charts only — no 3D, no decorative fills
+  tables: clean ruled lines, strong header row, generous row padding
+  style: Tufte-inspired — maximize data-ink ratio
+
+forms:
+  style: underline inputs (not boxed), large labels above
+  focus: bottom border darkens, no colored rings

@@ -1,0 +1,14 @@
+# Optional hard constraints that override theme defaults.
+# When a brand-constraint is active, the generator must respect it even if the theme suggests otherwise.
+
+# Example: a fintech brand that locks its primary color
+# fintech-blue:
+#   primary: "#1a56db"
+#   logo-clearspace: 24px
+#   forbidden-colors: ["#ff0000", "#00ff00"]
+#   tone: "formal"
+#   voice: "We help you manage your finances with confidence."
+
+# For the study: brand-constraints are usually empty (no brand lock).
+# They exist so the system can be reused for real client projects later.
+default: null

@@ -1,0 +1,54 @@
+- id: text-input
+  description: Single-line text field with label
+  constraints: [aria-label, focus-visible, error-state, disabled-state]
+  sources: [Material, shadcn]
+
+- id: textarea
+  description: Multi-line text input, optionally auto-resizing
+  constraints: [aria-label, max-length-indicator, resize-handle]
+  sources: [GitHub, Linear]
+
+- id: select
+  description: Single-value dropdown selector
+  constraints: [aria-listbox, keyboard-select, typeahead]
+  sources: [Radix, Base UI]
+
+- id: combobox
+  description: Searchable dropdown with text input
+  constraints: [aria-combobox, fuzzy-filter, async-loading]
+  sources: [Downshift, cmdk]
+
+- id: checkbox
+  description: Boolean toggle with label
+  constraints: [aria-checkbox, indeterminate-state, label-clickable]
+  sources: [shadcn, Material]
+
+- id: radio-group
+  description: Single-choice from a set of options
+  constraints: [aria-radiogroup, keyboard-arrows, fieldset-legend]
+  sources: [Radix, Material]
+
+- id: switch
+  description: Binary toggle for settings
+  constraints: [aria-switch, label-describes-state]
+  sources: [iOS, shadcn]
+
+- id: date-picker
+  description: Calendar-based date selection
+  constraints: [aria-dialog, keyboard-navigation, range-support]
+  sources: [react-day-picker, shadcn]
+
+- id: search-bar
+  description: Search input with optional suggestions
+  constraints: [aria-search, debounced-input, clear-button]
+  sources: [Algolia, Spotlight]
+
+- id: file-upload
+  description: Drag-and-drop or click-to-upload file input
+  constraints: [aria-dropzone, progress-indicator, file-type-validation]
+  sources: [Dropzone, shadcn]
+
+- id: slider
+  description: Range input for numeric values
+  constraints: [aria-slider, keyboard-step, value-label]
+  sources: [Radix, Material]

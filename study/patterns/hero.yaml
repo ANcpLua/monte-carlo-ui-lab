@@ -1,0 +1,34 @@
+- id: centered-hero
+  description: Centered headline + subtext + CTA over background
+  constraints: [responsive-text-size, contrast-over-image, skip-to-content]
+  sources: [Stripe, Vercel, Linear]
+
+- id: split-hero
+  description: Text on one side, image/illustration on the other
+  constraints: [responsive-stack, balanced-visual-weight]
+  sources: [Tailwind UI, Framer]
+
+- id: video-hero
+  description: Full-viewport background video with overlay text
+  constraints: [autoplay-muted, reduced-motion-fallback, contrast-overlay]
+  sources: [Apple, Tesla]
+
+- id: interactive-hero
+  description: Hero with interactive canvas, animation, or 3D element
+  constraints: [reduced-motion-fallback, no-autoplay-sound, performance-budget-3s-LCP]
+  sources: [Stripe, Three.js showcases]
+
+- id: waitlist-hero
+  description: Email capture form with social proof (avatar stack, count)
+  constraints: [form-validation, privacy-link, success-state]
+  sources: [ProductHunt, Supabase]
+
+- id: dashboard-hero
+  description: Key metrics overview at top of dashboard
+  constraints: [real-data-not-placeholder, time-range-selector, responsive-grid]
+  sources: [Vercel Analytics, Stripe Dashboard]
+
+- id: feature-grid-hero
+  description: Headline + grid of feature cards below
+  constraints: [consistent-card-height, icon-per-card, responsive-columns]
+  sources: [Next.js, Tailwind CSS]

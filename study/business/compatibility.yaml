@@ -1,0 +1,19 @@
+# Which themes fit which industries.
+# strong: natural fit, use freely
+# weak: unusual but potentially interesting
+# forbidden: structural mismatch
+
+practical-baseline:
+  strong: [saas, fintech, enterprise, dev-tools, healthcare]
+  weak: [creator-tools, education]
+  forbidden: []
+
+liquid-glass:
+  strong: [saas, creator-tools, e-commerce]
+  weak: [fintech, education, healthcare]
+  forbidden: [enterprise]
+
+swiss-editorial:
+  strong: [dev-tools, education, enterprise, healthcare]
+  weak: [saas, fintech]
+  forbidden: [e-commerce]

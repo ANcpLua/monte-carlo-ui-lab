@@ -1,0 +1,39 @@
+- id: power-user
+  label: Power User
+  behavior: keyboard-heavy, dense layouts, batch operations
+  expects: speed, customization, shortcuts
+
+- id: first-timer
+  label: First-time User
+  behavior: exploratory, cautious, reads labels
+  expects: guidance, clear CTAs, forgiving errors
+
+- id: exec
+  label: Executive / Decision Maker
+  behavior: glances at dashboards, wants summary
+  expects: KPIs, trends, minimal interaction
+
+- id: admin
+  label: System Administrator
+  behavior: manages users, configures settings, monitors
+  expects: tables, filters, bulk actions, audit logs
+
+- id: developer
+  label: Developer
+  behavior: reads docs, copies code, uses API
+  expects: code blocks, search, clear hierarchy
+
+- id: casual
+  label: Casual Browser
+  behavior: scrolls, skims, clicks occasionally
+  expects: visual appeal, minimal friction, clear navigation
+
+- id: mobile
+  label: Mobile-first User
+  behavior: touch-driven, small screen, short sessions
+  expects: large touch targets, minimal text, fast loads
+
+- id: operator
+  label: Operations / Support
+  behavior: monitors dashboards, triages issues, long sessions
+  expects: dense data, keyboard shortcuts, real-time updates

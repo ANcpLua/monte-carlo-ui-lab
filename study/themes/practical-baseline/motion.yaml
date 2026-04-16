@@ -1,0 +1,26 @@
+language: restrained-functional
+role: accent layer, not foundation
+
+allowed:
+  - landing page polish
+  - onboarding accents
+  - empty states
+  - celebratory states (e.g. "no errors found")
+  - tasteful loading flourishes
+  - subtle KPI transitions
+
+forbidden:
+  - app shell animation
+  - core navigation transitions
+  - data explorer motion
+  - table row animation
+  - critical workflow transitions
+
+principle: |
+  Motion improves comprehension or product feel.
+  If it makes the workflow slower, noisier, or harder to parse — reject it.
+
+easing: ease-out
+duration-range: [150ms, 400ms]
+spring: false
+prefers-reduced-motion: required

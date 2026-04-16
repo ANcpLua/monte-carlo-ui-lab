@@ -1,0 +1,25 @@
+grammars:
+  - name: floating-panels
+    description: Glass panels floating over gradient mesh background
+    structure: [background(100vw, gradient-mesh), panels(centered, stacked)]
+    use-cases: [landing, hero, auth, pricing]
+
+  - name: glass-sidebar
+    description: Translucent sidebar + main content over shared background
+    structure: [background(100vw), sidebar(280px, heavy-blur), main(1fr, medium-blur)]
+    use-cases: [dashboard, settings, explorer]
+
+  - name: card-grid
+    description: Glass cards in responsive grid over mesh
+    structure: [background, header(light-blur), grid(auto-fill, minmax(320px, 1fr))]
+    use-cases: [features, pricing tiers, team, portfolio]
+
+  - name: hero-split
+    description: Full-height hero with glass card on one side
+    structure: [background(100vh, mesh), content(50vw), glass-cta(50vw)]
+    use-cases: [landing, waitlist, product intro]
+
+density-tiers:
+  sparse: padding-8, gap-8, large glass panels
+  balanced: padding-6, gap-6, standard panels
+  dense: not recommended (glass needs space to breathe)

@@ -1,0 +1,63 @@
+- id: landing
+  label: Landing Page
+  purpose: convert visitors to users
+
+- id: pricing
+  label: Pricing Page
+  purpose: compare tiers, drive conversion
+
+- id: dashboard
+  label: Dashboard
+  purpose: overview of key metrics and status
+
+- id: settings
+  label: Settings Page
+  purpose: configure user/org preferences
+
+- id: onboarding
+  label: Onboarding Flow
+  purpose: guide new users through setup
+
+- id: 404
+  label: 404 Error Page
+  purpose: recover lost users with navigation
+
+- id: empty-state
+  label: Empty State
+  purpose: guide users when no data exists yet
+
+- id: data-explorer
+  label: Data Explorer
+  purpose: search, filter, and browse large datasets
+
+- id: detail-view
+  label: Detail View
+  purpose: deep dive into a single entity
+
+- id: auth
+  label: Authentication
+  purpose: login, signup, password reset
+
+- id: blog-article
+  label: Blog / Article
+  purpose: long-form content reading
+
+- id: profile
+  label: User Profile
+  purpose: view and edit user information
+
+- id: checkout
+  label: Checkout Flow
+  purpose: complete a purchase
+
+- id: documentation
+  label: Documentation
+  purpose: reference and learning
+
+- id: contact
+  label: Contact Page
+  purpose: reach out to the team
+
+- id: changelog
+  label: Changelog
+  purpose: communicate updates and releases

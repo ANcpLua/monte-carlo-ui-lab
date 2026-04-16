@@ -1,0 +1,48 @@
+# UX laws and heuristics that every generated design must respect.
+# These are constraints, not suggestions. The auditor checks compliance.
+
+laws-of-ux:
+  - name: Fitts's Law
+    rule: Interactive targets must be large enough and close to expected cursor positions
+    minimum: 44x44px touch targets, 32x32px pointer targets
+
+  - name: Hick's Law
+    rule: Reduce decision time by limiting choices per screen
+    maximum: 7±2 options in any single group
+
+  - name: Jakob's Law
+    rule: Users expect your site to work like other sites they know
+    implication: follow platform conventions, don't reinvent standard patterns
+
+  - name: Miller's Law
+    rule: Working memory holds ~7 items
+    implication: chunk information, use progressive disclosure
+
+  - name: Proximity
+    rule: Related elements should be visually grouped
+    implication: consistent spacing, clear section boundaries
+
+  - name: Similarity
+    rule: Similar elements should look similar
+    implication: consistent styling for same-type components
+
+nielsen-heuristics:
+  - Visibility of system status
+  - Match between system and real world
+  - User control and freedom (undo, cancel)
+  - Consistency and standards
+  - Error prevention
+  - Recognition rather than recall
+  - Flexibility and efficiency of use
+  - Aesthetic and minimalist design
+  - Help users recognize and recover from errors
+  - Help and documentation
+
+wcag-floor:
+  level: AA
+  contrast-text: "4.5:1"
+  contrast-large: "3:1"
+  focus-visible: required
+  reduced-motion: required
+  keyboard-operable: required
+  semantic-html: required

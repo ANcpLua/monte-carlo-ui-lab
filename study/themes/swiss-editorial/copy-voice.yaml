@@ -1,0 +1,17 @@
+tone: authoritative, precise, measured
+vocabulary: elevated but never obscure
+density: varies — sparse for headings, dense for body
+personality: NYT editorial board, university press
+
+do:
+  - write like a newspaper (inverted pyramid, most important info first)
+  - headings are statements, not questions
+  - use concrete data and specific language
+  - attribution matters — cite sources, show provenance
+
+avoid:
+  - casual language ("hey!", "awesome!")
+  - rhetorical questions in headings
+  - marketing buzzwords
+  - exclamation marks (period, always)
+  - emoji (never)

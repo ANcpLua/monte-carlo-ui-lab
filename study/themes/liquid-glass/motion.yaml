@@ -1,0 +1,21 @@
+language: spring-physics
+role: fundamental to the illusion — glass surfaces must feel physical
+
+easing: spring(1, 80, 10)
+duration-range: [200ms, 600ms]
+spring: true
+
+behaviors:
+  - panels slide in with spring overshoot
+  - modals scale up from 0.95 with spring
+  - cards lift on hover (translateY -2px, shadow deepens)
+  - page transitions crossfade with blur shift
+  - specular highlight follows cursor with lerp (0.08)
+  - scroll triggers parallax on background layers
+
+forbidden:
+  - linear easing (feels robotic, not physical)
+  - instant transitions (glass must feel like it has mass)
+  - bounce easing (too playful, glass is elegant)
+
+prefers-reduced-motion: crossfade only, no spring, no parallax
