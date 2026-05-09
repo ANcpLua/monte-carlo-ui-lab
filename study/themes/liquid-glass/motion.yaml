@@ -2,7 +2,7 @@ language: spring-physics
 role: fundamental to the illusion — glass surfaces must feel physical
 
 easing: spring(1, 80, 10)
-duration-range: [200ms, 600ms]
+duration-range: [ 200ms, 600ms ]
 spring: true
 
 behaviors:

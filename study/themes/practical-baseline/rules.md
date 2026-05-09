@@ -12,7 +12,8 @@ Choose exactly one headless primitive family for the entire frontend. Treat this
 
 ## Shell layer
 
-Use shadcn/ui as the source-owned shell — app shell, sidebar, command palette, dialogs, drawers, settings, forms, tables, dashboards. You own the code; shadcn is the distribution system, not a runtime dependency.
+Use shadcn/ui as the source-owned shell — app shell, sidebar, command palette, dialogs, drawers, settings, forms,
+tables, dashboards. You own the code; shadcn is the distribution system, not a runtime dependency.
 
 ## Performance and density
 
@@ -24,7 +25,8 @@ Optimize for workflow speed, clarity, and data scale:
 - Responsive interactions under realistic data loads
 - Restrained visual chrome — no decorative noise in core workflows
 
-Avoid: giant marketing-style spacing in work surfaces, decorative animation in critical paths, oversized controls that reduce density, slow rendering on large datasets.
+Avoid: giant marketing-style spacing in work surfaces, decorative animation in critical paths, oversized controls that
+reduce density, slow rendering on large datasets.
 
 ## Rendering
 

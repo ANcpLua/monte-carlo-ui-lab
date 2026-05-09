@@ -4,16 +4,16 @@
 # forbidden: structural mismatch
 
 practical-baseline:
-  strong: [saas, fintech, enterprise, dev-tools, healthcare]
-  weak: [creator-tools, education]
-  forbidden: []
+  strong: [ saas, fintech, enterprise, dev-tools, healthcare ]
+  weak: [ creator-tools, education ]
+  forbidden: [ ]
 
 liquid-glass:
-  strong: [saas, creator-tools, e-commerce]
-  weak: [fintech, education, healthcare]
-  forbidden: [enterprise]
+  strong: [ saas, creator-tools, e-commerce ]
+  weak: [ fintech, education, healthcare ]
+  forbidden: [ enterprise ]
 
 swiss-editorial:
-  strong: [dev-tools, education, enterprise, healthcare]
-  weak: [saas, fintech]
-  forbidden: [e-commerce]
+  strong: [ dev-tools, education, enterprise, healthcare ]
+  weak: [ saas, fintech ]
+  forbidden: [ e-commerce ]

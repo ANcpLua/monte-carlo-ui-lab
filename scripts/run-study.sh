@@ -30,7 +30,7 @@ echo ""
 
 # Generate random seeds
 seeds=()
-for i in $(seq 1 $COUNT); do
+for i in $(seq 1 "$COUNT"); do
   seeds+=("0x$(openssl rand -hex 4 | tr '[:lower:]' '[:upper:]')")
 done
 
@@ -59,7 +59,7 @@ echo ""
 
 # Poll for completions
 completed=0
-while [ $completed -lt $COUNT ]; do
+while [ $completed -lt "$COUNT" ]; do
   for seed in "${seeds[@]}"; do
     if [ -f "/tmp/mc-ui-trial-${seed}.done" ] && [ ! -f "/tmp/mc-ui-trial-${seed}.reported" ]; then
       completed=$((completed + 1))

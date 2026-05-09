@@ -3,6 +3,7 @@
 ## Surface model
 
 Every interactive surface is a frosted glass panel:
+
 - `backdrop-filter: blur(20px) saturate(180%)`
 - Semi-transparent background (rgba with 0.6–0.85 alpha)
 - Subtle border (1px solid rgba white at 0.15–0.25)

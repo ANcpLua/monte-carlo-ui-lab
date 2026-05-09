@@ -15,13 +15,14 @@ You draw a random sample from the study's axes and produce a generation prompt.
 ## Output format
 
 `manifest.json`:
+
 ```json
 {
   "seed": "0xC0FFEE42",
   "theme_primary": "liquid-glass",
   "theme_secondary": null,
   "hybrid_ratio": null,
-  "palette": "arctic-frost",
+  "palette": "cyanotype",
   "typography": "sf-inspired",
   "layout": "floating-panels",
   "density": "balanced",

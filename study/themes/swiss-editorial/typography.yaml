@@ -3,22 +3,22 @@ systems:
     heading: "'Helvetica Neue', 'Arial', sans-serif"
     body: "'Helvetica Neue', 'Arial', sans-serif"
     mono: "'Courier New', monospace"
-    scale: [12, 14, 16, 24, 36, 48, 72]
-    weight: [400, 700]
+    scale: [ 12, 14, 16, 24, 36, 48, 72 ]
+    weight: [ 400, 700 ]
 
   - name: editorial-serif
     heading: "'Playfair Display', 'Georgia', serif"
     body: "'Source Sans 3', 'Helvetica', sans-serif"
     mono: "'Source Code Pro', monospace"
-    scale: [12, 14, 16, 24, 36, 48, 72]
-    weight: [400, 600, 700, 900]
+    scale: [ 12, 14, 16, 24, 36, 48, 72 ]
+    weight: [ 400, 600, 700, 900 ]
 
   - name: grotesk-modern
     heading: "'Space Grotesk', sans-serif"
     body: "'Inter', sans-serif"
     mono: "'Space Mono', monospace"
-    scale: [12, 14, 16, 24, 36, 48, 72]
-    weight: [400, 500, 700]
+    scale: [ 12, 14, 16, 24, 36, 48, 72 ]
+    weight: [ 400, 500, 700 ]
 
 rules:
   - display headings can be large (48-72px) — this IS the decoration

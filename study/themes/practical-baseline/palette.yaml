@@ -4,37 +4,37 @@ dark-mode: first-class supported
 
 palettes:
   - name: neutral-slate
-    bg: ["#ffffff", "#f8fafc", "#f1f5f9"]
-    fg: ["#0f172a", "#334155", "#64748b"]
+    bg: [ "#ffffff", "#f8fafc", "#f1f5f9" ]
+    fg: [ "#0f172a", "#334155", "#64748b" ]
     accent: "#2563eb"
     success: "#16a34a"
     warning: "#d97706"
     error: "#dc2626"
     dark:
-      bg: ["#0f172a", "#1e293b", "#334155"]
-      fg: ["#f8fafc", "#cbd5e1", "#94a3b8"]
+      bg: [ "#0f172a", "#1e293b", "#334155" ]
+      fg: [ "#f8fafc", "#cbd5e1", "#94a3b8" ]
 
   - name: warm-stone
-    bg: ["#ffffff", "#fafaf9", "#f5f5f4"]
-    fg: ["#1c1917", "#44403c", "#78716c"]
+    bg: [ "#ffffff", "#fafaf9", "#f5f5f4" ]
+    fg: [ "#1c1917", "#44403c", "#78716c" ]
     accent: "#0369a1"
     success: "#15803d"
     warning: "#b45309"
     error: "#b91c1c"
     dark:
-      bg: ["#1c1917", "#292524", "#44403c"]
-      fg: ["#fafaf9", "#d6d3d1", "#a8a29e"]
+      bg: [ "#1c1917", "#292524", "#44403c" ]
+      fg: [ "#fafaf9", "#d6d3d1", "#a8a29e" ]
 
   - name: cool-zinc
-    bg: ["#ffffff", "#fafafa", "#f4f4f5"]
-    fg: ["#18181b", "#3f3f46", "#71717a"]
-    accent: "#7c3aed"
+    bg: [ "#ffffff", "#fafafa", "#f4f4f5" ]
+    fg: [ "#18181b", "#3f3f46", "#71717a" ]
+    accent: "#3d5a80"
     success: "#059669"
     warning: "#ca8a04"
     error: "#e11d48"
     dark:
-      bg: ["#18181b", "#27272a", "#3f3f46"]
-      fg: ["#fafafa", "#d4d4d8", "#a1a1aa"]
+      bg: [ "#18181b", "#27272a", "#3f3f46" ]
+      fg: [ "#fafafa", "#d4d4d8", "#a1a1aa" ]
 
 tokens:
   - spacing (4px scale)

@@ -3,6 +3,7 @@
 ## Grid system
 
 The grid is the foundation — every element aligns to it:
+
 - 12-column grid with consistent gutters
 - Baseline grid for vertical rhythm (8px or 4px unit)
 - Asymmetric layouts allowed but always grid-aligned
@@ -11,6 +12,7 @@ The grid is the foundation — every element aligns to it:
 ## Typography as hierarchy
 
 Typography does the work that color and decoration do in other themes:
+
 - Size contrast creates hierarchy (minimum 1.5x ratio between levels)
 - Weight contrast reinforces (400 body, 700 headings)
 - One typeface family preferred, two maximum

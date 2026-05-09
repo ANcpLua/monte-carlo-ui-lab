@@ -21,6 +21,6 @@ principle: |
   If it makes the workflow slower, noisier, or harder to parse — reject it.
 
 easing: ease-out
-duration-range: [150ms, 400ms]
+duration-range: [ 150ms, 400ms ]
 spring: false
 prefers-reduced-motion: required

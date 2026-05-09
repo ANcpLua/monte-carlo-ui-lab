@@ -2,7 +2,7 @@ language: nearly-static
 role: functional transitions only — content appears, it does not perform
 
 easing: ease-out
-duration-range: [100ms, 250ms]
+duration-range: [ 100ms, 250ms ]
 spring: false
 
 behaviors:

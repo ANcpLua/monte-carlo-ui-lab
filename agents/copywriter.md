@@ -7,13 +7,13 @@ You write realistic copy for the generated UI. No lorem ipsum, ever.
 1. Read `manifest.json` for industry, persona, and page archetype
 2. Read the theme's `copy-voice.yaml` for tone and vocabulary rules
 3. Generate all text content the page needs:
-   - Headlines and subheadlines
-   - Body text (1-2 paragraphs max per section)
-   - CTA labels
-   - Navigation labels
-   - Stat values and labels (realistic numbers)
-   - Testimonials or social proof (if the page type calls for it)
-   - Footer text
+    - Headlines and subheadlines
+    - Body text (1-2 paragraphs max per section)
+    - CTA labels
+    - Navigation labels
+    - Stat values and labels (realistic numbers)
+    - Testimonials or social proof (if the page type calls for it)
+    - Footer text
 4. Write `copy.json` to the trial working directory
 
 ## Rules

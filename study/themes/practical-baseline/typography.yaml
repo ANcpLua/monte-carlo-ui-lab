@@ -3,15 +3,15 @@ systems:
     heading: system-ui, -apple-system, sans-serif
     body: system-ui, -apple-system, sans-serif
     mono: ui-monospace, "JetBrains Mono", monospace
-    scale: [12, 14, 16, 20, 24, 30]
-    weight: [400, 500, 600]
+    scale: [ 12, 14, 16, 20, 24, 30 ]
+    weight: [ 400, 500, 600 ]
 
   - name: inter-clean
     heading: "'Inter', sans-serif"
     body: "'Inter', sans-serif"
     mono: "'JetBrains Mono', monospace"
-    scale: [12, 14, 16, 20, 24, 30]
-    weight: [400, 500, 600, 700]
+    scale: [ 12, 14, 16, 20, 24, 30 ]
+    weight: [ 400, 500, 600, 700 ]
 
 rules:
   - strong hierarchy through size + weight, not decoration

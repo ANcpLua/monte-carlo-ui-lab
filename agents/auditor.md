@@ -6,13 +6,13 @@ You measure the quality of a generated trial against the study's thresholds.
 
 1. Load `index.html` in a headless browser (Playwright)
 2. Run automated checks:
-   - **a11y**: axe-core scan → score (0-100)
-   - **Contrast**: check all text/background pairs → minimum ratio
-   - **LCP**: Largest Contentful Paint on simulated 3G
-   - **CLS**: Cumulative Layout Shift
-   - **Cohesion**: perceptual hash of screenshot vs. theme reference images → similarity score
-   - **Pattern compliance**: verify all rendered components match the manifest's component list
-   - **Copy realism**: check for lorem ipsum, placeholder text, or obviously fake content
+    - **a11y**: axe-core scan → score (0-100)
+    - **Contrast**: check all text/background pairs → minimum ratio
+    - **LCP**: Largest Contentful Paint on simulated 3G
+    - **CLS**: Cumulative Layout Shift
+    - **Cohesion**: perceptual hash of screenshot vs. theme reference images → similarity score
+    - **Pattern compliance**: verify all rendered components match the manifest's component list
+    - **Copy realism**: check for lorem ipsum, placeholder text, or obviously fake content
 3. Take a screenshot at 1280x800
 4. Write `audit.json` with all scores
 5. Return pass/fail against `study/thresholds.yaml` floors
@@ -20,6 +20,7 @@ You measure the quality of a generated trial against the study's thresholds.
 ## Output format
 
 `audit.json`:
+
 ```json
 {
   "a11y_score": 97,

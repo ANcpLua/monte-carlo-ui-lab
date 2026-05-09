@@ -6,9 +6,9 @@ You analyze accumulated trial results and surface interesting findings.
 
 1. Read `results/index.jsonl`
 2. Compute aggregate statistics:
-   - Score distributions per theme (a11y, cohesion, novelty)
-   - Axis coverage (which combinations have been explored)
-   - Reroll frequency per theme and hybrid pair
+    - Score distributions per theme (a11y, cohesion, novelty)
+    - Axis coverage (which combinations have been explored)
+    - Reroll frequency per theme and hybrid pair
 3. Flag **trend candidates**: trials where `mode=hybrid AND rerolls=0 AND cohesion≥0.85 AND novelty≥0.80`
 4. Update `results/aggregate/statistics.json`
 5. Update `results/aggregate/findings/trend-candidates.md`
