@@ -4,6 +4,9 @@
 
 An empirical playground for UI trend discovery through constrained Monte Carlo sampling. Themes define cohesive design languages. Samplers draw random variations. Agents orchestrate the full pipeline.
 
+Lives in `~/RiderProjects/qyl-workspace/`; workspace-level rules are in the router
+at `../AGENTS.md`. Design findings here inform the qyl dashboard (`../qyl/`).
+
 ## Architecture
 
 - `study/` is the methodology — locked, versioned, never auto-modified
